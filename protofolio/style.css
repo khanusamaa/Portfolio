@@ -1,0 +1,393 @@
+*{
+ padding: 0;
+ margin: 0;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+.container{
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: rgba(94, 94, 94, 0.979);
+    box-sizing: border-box;
+    width: 100%;
+    height:65vh;
+}
+.yellow{
+    color:green;
+margin-right: 0.5REM;    
+    
+}
+.headowner{
+color: white;
+font-size: 1.2em;
+
+}
+.ull{
+    position: relative;
+    left: -12em;
+}
+.nav{
+    padding-top:1.5rem;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-size:0.9em;
+    margin: 0rem 1rem;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.about{
+    
+    display: flex;
+
+    margin-top: 0.5em;
+    
+    
+}
+.about-1{
+    
+    padding-top: 2.5em;
+    width:30%;
+    
+    display:inline-block;
+    box-sizing: border-box;
+}
+
+.about-1 h1{
+    color: rgb(243, 243, 243);
+    font-size: 4em;
+    font-weight: 700px;
+}
+.about-1content{
+    width: 70%;
+    margin-top: 1.5em;
+    color: rgb(156, 156, 156);
+    
+
+}
+.about-1 h1 span{
+    border-bottom: 0.1em green solid;
+}
+.about-1 h2{
+    font-size: 3em;
+    color: rgb(156, 156, 156);
+}
+.about-1 p{
+    font-size:0.9em;
+    
+}
+.about-2{
+    background-color: rgba(46, 43, 43, 0.822);
+    width:50%;
+    border-radius: 60%;
+    position: relative;
+    left: -3.8em;
+    display: flex;
+    justify-content: center;
+
+}
+.about-2 img{
+width:70%;
+height: 100%;
+margin: 0 auto;
+
+position:relative;
+
+}
+.about-3{
+    
+    width: 30%;
+    
+    position: relative;
+    left: -7em;
+}
+.about-3 h6{
+    color: white;
+    font-size: 1em;
+    margin-top: 12%;
+}
+.about-3 p{
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+}
+.about-3 span{
+    color: green;
+    display: block;
+    
+}
+.about3-icon1{
+    margin-top: 0.8em;
+    margin-left: 0em;
+    background-color: black;
+    padding: 0.6em;
+    display: inline-block;
+    border-radius: 50%;
+}
+.about3-icon{
+    margin-top: 0.8em;
+    margin-left: 0.5em;
+    background-color: black;
+    padding: 0.6em;
+    display: inline-block;
+    border-radius: 50%;
+}
+.arrow-about{
+    color: green;
+    margin-left: 0.5em;
+}
+.header-bottom{
+    
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 4.5em;
+    bottom:-3%;
+    border-radius: 0.2em;
+    background-color: rgba(94, 94, 94, 0.979);
+    box-shadow: 0.2em 0.1em rgb(37, 37, 37);
+    
+}
+.header-bottom div{
+    margin: 0.9em 0.6em;
+    width:18%;
+
+box-sizing: border-box;
+
+border-radius: 0.2em;
+background-color: rgba(46, 43, 43, 0.822);
+}
+.google{
+    padding: 0.5em 0.5em  0.2em 1em;
+    
+}
+.google img{
+width: 70%;
+display:block;
+margin:0.5em auto;
+height: 60%;
+}
+.Linkedin img,.slack img{
+    width: 20%;
+    display:inline-block;
+    
+    height: 60%;
+}
+.Linkedin h2{
+    color: white;
+    display: inline-block;
+    width: 50%;
+    height: 60%;
+    margin-right: 0.5em;
+    
+}
+.slack h2{
+    color: white;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    margin-left: 0.5em;
+}
+.Linkedin,.slack{
+    padding: 0.6em 0.8em  0.2em 1.6em;
+}
+.meta img{
+    width:40%;
+    height: 80%;
+    display: inline-block;
+    
+
+
+}
+.meta h2{
+    color: white;
+    display: inline-block;
+    width: 40%;
+    height: 80%;
+    
+} 
+.meta{
+    display: inline-block;
+    padding: 0.5em 0.5em  0.2em 1.6em;
+  
+}
+.midsection{
+    width: 100%;
+    height:100vh;
+    box-sizing:border-box ;
+display: inline-block;
+
+    background-color: rgba(20, 17, 17, 0.822);
+    
+    
+    
+    
+}
+
+.midsection-content{
+    
+width: 100%;
+height:60vh;
+    
+    position: relative;
+    top:20% ;
+    
+display: flex;
+justify-content: center;
+
+}
+.midsection1,.midsection2{
+    display: inline-block;
+    width: 45%;
+    margin: 0 auto;
+    
+    
+
+}
+.midsection1 h1{
+    color: white;
+    font-size: 3em;
+}
+.midsection1 p{
+    width:75%;
+    color: rgb(156, 156, 156);
+    font-size: 1.3em;
+}
+.midsection-footer{
+    width: 77%;
+    
+    height:auto;
+    margin-top: 4%;
+
+}
+.midsectionfooter1,.midsectionfooter2,.midsectionfooter3,.midsectionfooter4{
+width:48%;
+height: 100%;
+
+display: inline-block;
+}
+.midsectionfooter1 h2,.midsectionfooter2 h2,.midsectionfooter3 h2,.midsectionfooter4 h2{
+    color: rgb(17, 39, 17);
+    font-size:1.5em;
+}
+.midsectionfooter1 p,.midsectionfooter2 p,.midsectionfooter3 p,.midsectionfooter4 p{
+    font-size: 1em;
+    color: rgb(156, 156, 156);
+    
+}
+.midsection-img1content{
+    width:30%;
+    height:33.3%;
+    display: inline-block;
+    
+}
+.midsection-img1,.midsection-img2,.midsection-img3{
+    
+    width:100%;
+    height:33.3%;
+    display:flex;
+    
+    box-sizing: border-box;
+    align-items: center;
+    
+    
+}
+
+.midsection-img1 img,.midsection-img2 img,.midsection-img3 img{
+    width: 30%;
+    height:70%;
+    border-radius: 0.4em;
+    margin-bottom: 0.2em;
+}
+
+hr{
+background-color: green;
+}
+
+.midsection-img1 h3,.midsection-img2 h3,.midsection-img3 h3{
+    display: inline-block;
+    color: white;
+}
+.midsection-img1 p,.midsection-img2 p,.midsection-img3 p{
+    color: rgb(156, 156, 156);
+}
+.midsection-img1content{
+margin-left: 0.5em;
+
+  
+}
+
+.arrow{
+    display:inline-block;
+    color: green;
+    margin-left:11.2em;
+}
+.bottom{
+    
+    height: 40vh;
+    width: 100%;
+    margin-top: 0em;
+    box-sizing: border-box;
+    background-color: rgba(94, 94, 94, 0.979);
+    
+}
+.bottomes{
+    
+    position: relative;
+    bottom: 30%;
+    height: 98%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.bottom1,.bottom2,.bottom3{
+height:99.9%;
+width: 32%;
+display: inline-block;
+margin-left: 0.4em;
+background-color: rgba(94, 94, 94, 0.979); 
+border-radius: 0.2em;
+box-shadow: 1em black;
+
+
+
+}
+.bottom-icon{
+    
+    color: green;
+    
+}
+.bottom1 h1,.bottom2 h1,.bottom3 h1{
+    color: white;
+    font-size: 1.6em;
+    margin-left: 0.8em;
+    margin-top: 0.5em;
+}
+
+.bottom1 p,.bottom2 p,.bottom3 p{
+    color: rgb(156, 156, 156);
+    margin-left: 0.8em;
+    font-size: 1.2em;
+    width: 80%;
+}
+.icon{
+    margin-top: 0.8em;
+    margin-left: 1.2em;
+    background-color: black;
+    padding: 0.5em;
+    display: inline-block;
+    border-radius: 50%;
+}
